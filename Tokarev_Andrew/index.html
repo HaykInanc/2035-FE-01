@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <form action="" class="ui-form totalizer">
+      <h3>Введите число</h3>
+      <div class="form-row">
+        <input type="text" id="num_input" required autocomplete="off" /><label
+          for="num_input"
+          >Введите число</label
+        >
+      </div>
+      <p id="result">0</p>
+      <p><input type="submit" value="Прибавить" /></p>
+    </form>
+
+    <form action="" class="ui-form colors_form">
+      <h3>Введите цвет</h3>
+      <div class="form-row">
+        <input type="text" id="color_input" required autocomplete="off" /><label
+          for="color_input"
+          >Введите цвет</label
+        >
+      </div>
+      <p><input type="submit" value="Добавить" /></p>
+    </form>
+    <div id="colors"></div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
