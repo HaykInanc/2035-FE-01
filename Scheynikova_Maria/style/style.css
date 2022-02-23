@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+}
+h1 {
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+form {
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 16px;
+}
+input {
+    line-height: 25px;
+    padding: 5px;
+    
+}
+button {
+    padding: 10px;
+}
+p {
+    line-height: 50px;
+
+}
+p#result {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+}
+
+div {
+    width: 400px;
+    height: 50px;
+}
