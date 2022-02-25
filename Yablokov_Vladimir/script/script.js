@@ -19,6 +19,7 @@ const noMath = {
         return numbSum/this.get_count()
     }
 }
+
 console.log(noMath.get_max());
 console.log(noMath.get_min());
 console.log(noMath.get_count());
