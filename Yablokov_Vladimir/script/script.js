@@ -19,7 +19,6 @@ const noMath = {
         return numbSum/this.get_count()
     }
 }
-
 console.log(noMath.get_max());
 console.log(noMath.get_min());
 console.log(noMath.get_count());
@@ -42,11 +41,9 @@ return object;
 }
 noMath1(numbers);
 console.log(object);
-
 // хочу поинтересоваться какая реализация более правильная?
 // v1.0 делал опираясь на прошедший материал
 // v1.1 подсмотрел в интернете
-
 //!!ЗАДАЧА ВТОРАЯ!!//
 const formElem = document.querySelector('#numbForm');
 const inputElem = document.querySelector('#inNumb');
@@ -60,7 +57,6 @@ function formNumb(event){
     resultElem.innerText = sum;
 }
 formElem.addEventListener('submit', formNumb);
-
 //!!ЗАДАЧА ТРЕТЬЯ!!//
 const colorForm = document.querySelector('#colorForm'); 
 const inputColorElem = document.querySelector('#inColor'); 
