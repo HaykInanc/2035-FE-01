@@ -1,0 +1,14 @@
+
+
+
+#colors{
+	background-color: #43d341;
+	display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    outline: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
