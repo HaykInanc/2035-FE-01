@@ -1,0 +1,14 @@
+#result{
+    display: flex;
+    flex-wrap: wrap;
+}
+.numArray{
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #000;
+}
+button{
+    margin-top: 10px;
+}
