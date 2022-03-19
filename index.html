@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="script/script.js"></script>
+  <style>
+    .boxer { 
+     
+     width: 300px; 
+     padding: 10px; 
+     border: 2px solid #000;
+    }
+   </style>
+</head>
+<body>
+    <form name="calculator" onsubmit="addition(this); return false;">
+        Первое число:
+        <input type="text" name="num1" value="0" id="num1" autofocus>
+        <br> Второе число:
+        <input type="text" name="num2" value="0" id="num2">
+        
+        
+        <input type="submit" value="Submit">
+       
+      </form>
+      <br> Результат:
+      <br><p id="resultat"></p>
+
+      <form name="colors" onsubmit="color(this); return false;">
+        Цвет
+        <input type="text" name="num1" value="0" id="num3" autofocus>
+    
+        
+        <input type="submit" value="Submit">
+        <div class="boxer" id="colorbox"></div>
+        <div class="newDiva" id="newDiv"></div>
+       
+      </form>
+
+
+
+
+</body>
+</html>
