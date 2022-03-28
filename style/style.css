@@ -1,0 +1,19 @@
+#color_bg{
+    margin-top: 50px;
+}
+
+#color_result {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;  
+    margin: 10px;
+}
